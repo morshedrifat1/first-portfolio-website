@@ -7,7 +7,9 @@
 section{
     margin-top: 130px;
 }
-
+button{
+    cursor: pointer;
+}
 /* header section open */
 header{
     background:url("../img/developer.png"),url("../img/header_bg.png"),#FFF8F3;
