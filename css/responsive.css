@@ -1,5 +1,5 @@
-/* header section open */
 
+/* mobile device  */
 
 @media screen and (max-width:576px) {
 
@@ -150,4 +150,10 @@
 
     }
     /* footer section close */
+}
+
+/* tablet device */
+
+@media screen and (min-width:576px) and (max-width:992px){
+    
 }
