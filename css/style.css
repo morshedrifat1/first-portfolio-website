@@ -4,7 +4,7 @@
     box-sizing: border-box;
     font-family: "Open Sans", serif;
 }
-section{
+section,footer{
     margin-top: 130px;
 }
 button{
@@ -104,6 +104,7 @@ line-height: 27px;
 text-align: center;
 color: #FFFFFF;
 border: none;
+margin: 0px;
 }
 
 .hero-btn button:last-child{
@@ -137,7 +138,7 @@ margin-left: 30px;
     padding: 0px 230px;
 }
 .about-container{
-    height: 550px;
+    height: auto;
     background: #FFF8F3;
     border-radius: 10px;
     display: flex;
@@ -148,12 +149,10 @@ margin-left: 30px;
     text-align:center ;
 }
 .about-content{
-
     background: #FFFFFF;
     border: 1px solid #cfcfcf6c;
     padding: 25px;
     border-radius: 4px;
-    
 }
 
 .about-content h1{
@@ -178,8 +177,6 @@ margin-left: 30px;
     justify-content: space-evenly;
     gap: 20px;
     padding-top: 30px;
-
-
 }
 
 .about-info p{
@@ -340,3 +337,85 @@ padding-top: 20px;
     cursor: pointer;
 }
 /* resume section close */
+
+/* footer section open */
+    .footer-container{
+        background-color: #FFF8F3;
+        padding: 130px 230px;
+        display: flex;
+        gap: 120px;
+    }
+
+
+.foot-social h3{
+    font-weight: 700;
+    font-size: 35px;
+    line-height: 48px;
+    color: #181818;
+}
+
+.foot-social p{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    color: #474747;
+    padding-top: 20px;
+}
+
+.foot-social ul{
+    padding-top: 30px;
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.foot-social ul li{
+    list-style: none;
+}
+
+.foot-form form{
+    padding-top: 28px;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+.foot-form h3{
+    font-weight: 700;
+    font-size: 35px;
+    line-height: 48px;
+    color: #181818;
+}
+
+.foot-form input,textarea{
+width: 461px;
+height: 64px;
+background: #FFFFFF;
+border-radius: 5px;
+border: none;
+padding: 18px 0px 18px 30px ;
+}
+
+.foot-form textarea{
+    height: 180px;
+}
+
+.foot-form input[type=submit]{
+
+width: 150px;
+height: 64px;
+background: #FD6E0A;
+border-radius: 5px;
+padding: 0px;
+font-weight: 700;
+font-size: 20px;
+line-height: 27px;
+text-align: center;
+color: #FFFFFF;
+}
+::placeholder {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    color: #757575;
+  }
+/* footer section close */
